@@ -1,2 +1,8 @@
 # Programming-Contest-Event-Management
-Collaborator 1: Syed Yaseen Arafat, Roll: 361
+Team members Name:
+
+`Kashfia`
+
+`Oywon`
+
+`Hridit`
