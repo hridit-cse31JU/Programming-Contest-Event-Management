@@ -1,8 +1,6 @@
+package NCPC_Project;
 
 
-import javax.swing.*;
-import java.awt.*;
-import java.io.File;
 
 public class NCPC extends JFrame {
     private Container container;
@@ -91,7 +89,7 @@ public class NCPC extends JFrame {
     }
 
     public static void main(String[] args) {
-        NCPC frame = new NCPC();
+        CSE_31.NCPC frame = new CSE_31.NCPC();
         frame.setVisible(true);
     }
 }

@@ -1,4 +1,4 @@
-
+package NCPC_Project;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,14 +13,12 @@ public class NCPC extends JFrame {
     private JPasswordField passwordField;
 
     public NCPC() {
-        try
-        {
+        try {
             File input = new File("C:/Users/Oywon/Downloads/NCPCP.png");
-            ic= new ImageIcon(input.getAbsolutePath());
+            ic = new ImageIcon(input.getAbsolutePath());
             setIconImage(ic.getImage());
-        }catch(Exception e)
-        {
-            System.out.println(" error is in "+e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
         }
         setTitle("NCPC 2K24");
         setSize(500, 500);
@@ -44,7 +42,7 @@ public class NCPC extends JFrame {
         welcomeLabel.setForeground(Color.BLUE);
         welcomeLabel.setFont(titleFont);
 
-        loginLabel = new JLabel("Email        :");
+        loginLabel = new JLabel("Email:");
         loginLabel.setBounds(50, 100, 100, 30);
         loginLabel.setForeground(Color.BLACK);
         loginLabel.setFont(labelFont);
@@ -79,7 +77,6 @@ public class NCPC extends JFrame {
             SignupPage signupPage = new SignupPage();
             signupPage.setVisible(true);
         });
-
 
         container.add(welcomeLabel);
         container.add(loginLabel);
